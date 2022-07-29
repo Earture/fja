@@ -36,9 +36,9 @@ int convertJa()
                 printf("%c", c[i]);
             }
         } else if (c[0] == 0x20){  //space
-            //printf("%s", "  ");
+            printf("%s", "  ");
         } else if (c[0] == '\n'){
-            //printf("\n");
+            printf("\n");
         } else if (c[0] <= 0x60){
             fc[2] = c[0] + 0x60;
             fc[1] = 0xBC;
