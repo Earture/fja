@@ -1,5 +1,5 @@
-vja: 
-	gcc vja.c -o vja
+fja: 
+	gcc fja.c -o fja
 
-install: vja
-	sudo cp vja /usr/local/bin/vja
+install: fja
+	sudo cp vja /usr/local/bin/fja
