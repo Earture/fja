@@ -20,10 +20,9 @@ int convertJa()
 
         temp = getchar();
         if (temp == EOF) return 0;
-        //printf("n:%c\n",(unsigned char)temp);
         if ((unsigned char)temp > 0x80) {
             c[0] = (unsigned char)temp;
-            for (int i = 1; i < 3; i++) {
+            for (int i = 1; i < 2; i++) {
                 c[i] = getchar();
             }
         } else {
