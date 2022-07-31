@@ -1,4 +1,4 @@
-fja: 
+fja: fja.c
 	gcc fja.c -o fja
 
 install: fja
