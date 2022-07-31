@@ -22,7 +22,7 @@ int convertJa()
         if (temp == EOF) return 0;
         if ((unsigned char)temp > 0x80) {
             c[0] = (unsigned char)temp;
-            for (int i = 1; i < 2; i++) {
+            for (int i = 1; i < 3; i++) {
                 c[i] = getchar();
             }
         } else {
