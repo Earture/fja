@@ -15,7 +15,7 @@ int convertJa()
 {
     unsigned char c[] = {0, 0, 0, 0};
     unsigned char fc[] = {0, 0, 0, 0};
-    char temp = '';
+    char temp;
     while(1) {
 
         temp = getchar();
